@@ -1,33 +1,10 @@
-> ⚠️ **Development paused to focus on pro version**
+> ⚠️ This version of JXScout is no longer actively maintained.
 >
-> Since the launch of the pro version of jxscout (https://jxscout.app/), my focus has been to add features and improve that version. Because of this, development to the open source version is paused for now. This means that many general improvements and bug fixes were added to the pro version and weren't yet backported to the OSS version. However PRs from the community are always welcome!
+> JXScout has evolved a lot since this open source version was first released. The project has been completely rewritten from scratch in Rust as JXScout Pro, which is a separate, closed source codebase. Because of this, bug fixes and improvements haven't been backported here and won't be going forward.
 >
-> As of today, the pro version offers these additional features:
+> You're welcome to experiment with this version, but be aware it has known bugs that will impact your coverage and it's missing a lot of what makes JXScout useful.
 >
-> - Improved cross-platform installation
-> - Improved experience on the VSCode extension
->   - View all jxscout findings and create wordlists (e.g. for endpoint discovery) from findings across all assets found by jxscout
->   - View relationships between assets (e.g. quickly identify discovered chunks, relationship between routes and JS files that were loaded and reversed)
-> - Improved chunk discovery
->   - Next.js chunks discovery through \_buildManifest.js file
->   - Fixed many edge cases to discover that prevented some chunks from being discovered
-> - Improved source map reversal
->   - In the open source version, if a route has multiple source maps the reversed sources can be overwritten (e.g. two sourcemaps have src/index.js). In the pro version this has been fixed
-> - Added more analyzers
->   - NPM package detector analyzer was added to get a list of package to detect public registry takeovers
-> - Added a source code optimizer
->   - Creates more readable versions of the original sources
->   - Uses an interpreter to do string inlining making jxscout find more paths (very useful to find API endpoints)
-> - MCP server
->   - Added an MCP server to integrate with AI tools
-> - CLI support for wordlist generation
->   - As an alternative to the VSCode extension, you can now use the CLI to generate wordlists
->
-> If these sound interesting head over to the website and request a free trial!
->
-> Please join the discord server to follow updates or for any questions: https://discord.com/invite/qu9AMdjZFj
->
-> Thank you!
+> I am always happy to offer free trials for the Pro version. You can get it through https://jxscout.app/
 
 # jxscout
 
