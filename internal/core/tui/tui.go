@@ -39,6 +39,7 @@ type TUI struct {
 	jxscout                JXScout
 	hasUpdate              bool
 	latestVersion          string
+	width                  int
 }
 
 type LogBuffer interface {
@@ -238,6 +239,7 @@ func (t *TUI) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		t.latestVersion = msg.Version
 	case tea.KeyMsg:
 	case tea.WindowSizeMsg:
+		t.width = msg.Width
 		headerHeight := lipgloss.Height(t.logsHeader())
 		footerHeight := lipgloss.Height(t.logsFooter())
 		verticalMarginHeight := headerHeight + footerHeight
@@ -321,9 +323,13 @@ func (t *TUI) View() string {
 	if t.output == "" {
 		s.WriteString(staticBanner)
 
+		disclaimer := "This version of JXScout is no longer actively maintained.\n\nJXScout has evolved a lot since this open source version was first released. The project has been completely rewritten from scratch in Rust as JXScout Pro, which is a separate, closed source codebase. JXScout Pro is a completely different product — it doesn't share any code with this version and is far more capable.\n\nYou're welcome to experiment with this version, but be aware it has known bugs that will impact your coverage and it only represents a small fraction of what JXScout Pro can do.\n\nI am always happy to offer free trials for the Pro version. You can get it through https://jxscout.app/"
+		if t.width > 0 {
+			disclaimer = wordwrap.String(disclaimer, t.width)
+		}
 		s.WriteString(lipgloss.NewStyle().
 			Foreground(lipgloss.Color("205")).
-			Render("\nCheck out the pro version for more features and many improvements: https://jxscout.app/\n"))
+			Render("\n" + disclaimer + "\n"))
 
 		if t.hasUpdate {
 			updateMsg := fmt.Sprintf("\n🔄 A new version (%s) is available!\nVisit https://github.com/francisconeves97/jxscout to check it out.\n", t.latestVersion)

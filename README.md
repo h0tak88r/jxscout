@@ -1,8 +1,8 @@
 > ⚠️ This version of JXScout is no longer actively maintained.
 >
-> JXScout has evolved a lot since this open source version was first released. The project has been completely rewritten from scratch in Rust as JXScout Pro, which is a separate, closed source codebase. Because of this, bug fixes and improvements haven't been backported here and won't be going forward.
+> JXScout has evolved a lot since this open source version was first released. The project has been completely rewritten from scratch in Rust as JXScout Pro, which is a separate, closed source codebase. JXScout Pro is a completely different product — it doesn't share any code with this version and is far more capable.
 >
-> You're welcome to experiment with this version, but be aware it has known bugs that will impact your coverage and it's missing a lot of what makes JXScout useful.
+> You're welcome to experiment with this version, but be aware it has known bugs that will impact your coverage and it only represents a small fraction of what JXScout Pro can do.
 >
 > I am always happy to offer free trials for the Pro version. You can get it through https://jxscout.app/
 
