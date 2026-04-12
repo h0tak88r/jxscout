@@ -2,9 +2,11 @@
 >
 > JXScout has evolved a lot since this open source version was first released. The project has been completely rewritten from scratch in Rust as JXScout Pro, which is a separate, closed source codebase. JXScout Pro is a completely different product — it doesn't share any code with this version and is far more capable.
 >
-> You're welcome to experiment with this version, but be aware it has known bugs that will impact your coverage and it only represents a small fraction of what JXScout Pro can do.
+> You're welcome to experiment with this version, but be aware it has known bugs that will impact your coverage. For the full experience, check out JXScout Pro.
 >
-> I am always happy to offer free trials for the Pro version. You can get it through https://jxscout.app/
+> I am always happy to offer free trials for the Pro version! You can get it through https://jxscout.app/
+>
+> Please join the discord server to follow updates or for any questions: https://discord.com/invite/qu9AMdjZFj
 
 # jxscout
 
