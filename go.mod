@@ -1,4 +1,4 @@
-module github.com/francisconeves97/jxscout
+module github.com/h0tak88r/jxscout
 
 go 1.23.2
 

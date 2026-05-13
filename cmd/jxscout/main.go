@@ -4,10 +4,10 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/francisconeves97/jxscout/internal/core/common"
-	"github.com/francisconeves97/jxscout/pkg/constants"
-	"github.com/francisconeves97/jxscout/pkg/jxscout"
-	jxscouttypes "github.com/francisconeves97/jxscout/pkg/types"
+	"github.com/h0tak88r/jxscout/internal/core/common"
+	"github.com/h0tak88r/jxscout/pkg/constants"
+	"github.com/h0tak88r/jxscout/pkg/jxscout"
+	jxscouttypes "github.com/h0tak88r/jxscout/pkg/types"
 
 	"github.com/projectdiscovery/goflags"
 )

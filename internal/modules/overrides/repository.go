@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/francisconeves97/jxscout/internal/core/errutil"
+	"github.com/h0tak88r/jxscout/internal/core/errutil"
 	"github.com/jmoiron/sqlx"
 )
 

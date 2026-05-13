@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/francisconeves97/jxscout/internal/core/eventbus"
-	jxscouttypes "github.com/francisconeves97/jxscout/pkg/types"
+	"github.com/h0tak88r/jxscout/internal/core/eventbus"
+	jxscouttypes "github.com/h0tak88r/jxscout/pkg/types"
 )
 
 type ingestionModule struct {

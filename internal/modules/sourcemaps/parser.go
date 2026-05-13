@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	assetservice "github.com/francisconeves97/jxscout/internal/core/asset-service"
-	"github.com/francisconeves97/jxscout/internal/core/dbeventbus"
-	"github.com/francisconeves97/jxscout/internal/core/errutil"
-	jxscouttypes "github.com/francisconeves97/jxscout/pkg/types"
+	assetservice "github.com/h0tak88r/jxscout/internal/core/asset-service"
+	"github.com/h0tak88r/jxscout/internal/core/dbeventbus"
+	"github.com/h0tak88r/jxscout/internal/core/errutil"
+	jxscouttypes "github.com/h0tak88r/jxscout/pkg/types"
 )
 
 // mostly based on https://github.com/denandz/sourcemapper/blob/master/main.go

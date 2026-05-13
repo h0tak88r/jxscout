@@ -3,7 +3,7 @@ package jxscout
 import (
 	"errors"
 
-	jxscouttypes "github.com/francisconeves97/jxscout/pkg/types"
+	jxscouttypes "github.com/h0tak88r/jxscout/pkg/types"
 )
 
 func validateOptions(options jxscouttypes.Options) error {

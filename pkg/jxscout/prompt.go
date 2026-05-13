@@ -3,9 +3,9 @@ package jxscout
 import (
 	"context"
 
-	"github.com/francisconeves97/jxscout/internal/core/tui"
-	"github.com/francisconeves97/jxscout/internal/modules/overrides"
-	jxscouttypes "github.com/francisconeves97/jxscout/pkg/types"
+	"github.com/h0tak88r/jxscout/internal/core/tui"
+	"github.com/h0tak88r/jxscout/internal/modules/overrides"
+	jxscouttypes "github.com/h0tak88r/jxscout/pkg/types"
 )
 
 type tuiJXScoutWrapper struct {

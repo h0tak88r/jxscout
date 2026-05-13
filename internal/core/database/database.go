@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/francisconeves97/jxscout/internal/core/common"
-	"github.com/francisconeves97/jxscout/internal/core/errutil"
+	"github.com/h0tak88r/jxscout/internal/core/common"
+	"github.com/h0tak88r/jxscout/internal/core/errutil"
 
 	"github.com/jmoiron/sqlx"
 	_ "github.com/mattn/go-sqlite3"

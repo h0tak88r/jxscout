@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	assetservice "github.com/francisconeves97/jxscout/internal/core/asset-service"
-	"github.com/francisconeves97/jxscout/internal/core/common"
-	"github.com/francisconeves97/jxscout/internal/core/dbeventbus"
-	"github.com/francisconeves97/jxscout/internal/core/errutil"
-	"github.com/francisconeves97/jxscout/internal/modules/beautifier"
-	"github.com/francisconeves97/jxscout/internal/modules/sourcemaps"
-	jxscouttypes "github.com/francisconeves97/jxscout/pkg/types"
+	assetservice "github.com/h0tak88r/jxscout/internal/core/asset-service"
+	"github.com/h0tak88r/jxscout/internal/core/common"
+	"github.com/h0tak88r/jxscout/internal/core/dbeventbus"
+	"github.com/h0tak88r/jxscout/internal/core/errutil"
+	"github.com/h0tak88r/jxscout/internal/modules/beautifier"
+	"github.com/h0tak88r/jxscout/internal/modules/sourcemaps"
+	jxscouttypes "github.com/h0tak88r/jxscout/pkg/types"
 )
 
 const analyzerVersion = 4

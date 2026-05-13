@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/francisconeves97/jxscout/internal/core/errutil"
+	"github.com/h0tak88r/jxscout/internal/core/errutil"
 	"github.com/hasura/go-graphql-client"
 )
 
